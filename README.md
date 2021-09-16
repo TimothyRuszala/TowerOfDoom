@@ -7,9 +7,15 @@ But because the 64-disc solution requires no less than a whopping 2^64-1 moves, 
 
 # How to run:
 
-Hanoi.java takes two command line arguments, the first being the number of discs to display, and the second being how many milliseconds to spend moving on each disc (minimum value of 1). To visualize the legend, for example, use: 
+To visualize the legend, for example, use: 
+
+    javac Hanoi
+    
+and then:
 
     java Hanoi 64 1
+    
+where the first command-line argument is the number of discs to display, and the second is long (in ms) it takes to move each disc (minimum value of 1). 
 
 # Sources
 
